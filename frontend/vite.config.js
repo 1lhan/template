@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react({
     babel: {
-      "plugins": [["module:@preact/signals-react-transform"]] //
+      "plugins": [["module:@preact/signals-react-transform"]] // preact'ın düzgün çalışması için
     }
   })],
-  build: { target: "esnext" }
+  build: { target: "esnext" } // top level await hatasını önlemek için
 })

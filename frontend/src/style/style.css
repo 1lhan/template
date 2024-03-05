@@ -1,1 +1,11 @@
-/*# sourceMappingURL=style.css.map */
+html * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html .container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+}/*# sourceMappingURL=style.css.map */

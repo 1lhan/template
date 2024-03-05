@@ -1,8 +1,5 @@
-# React + Vite
+npm create vite@latest
+npm i react-router-dom react-redux redux @reduxjs/toolkit @preact/signals-react @tanstack/react-query
+npm i --save-dev @preact/signals-react-transform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm i node nodemon express cors bcrypt cors dotenv express jsonwebtoken mongodb mongoose node cookie-parser

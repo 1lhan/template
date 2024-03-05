@@ -7,6 +7,19 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import slice from './slice.js'
 import { Provider } from 'react-redux'
 import './style/style.css'
+import { configureStore } from '@reduxjs/toolkit'
+//import { signal } from '@preact/signals-react'
+
+/*const autoLogin = async () => {
+    let _autoLogin = await fetch(import.meta.env.VITE_REACT_APP_BACKEND_URL + '/auto-login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: document.cookie })
+    }).then(res => res.json())
+
+    return _autoLogin.success ? _autoLogin.user : false
+}
+const user = signal(await autoLogin())*/
 
 const queryClient = new QueryClient({
     defaultOptions: {
