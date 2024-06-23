@@ -1,7 +1,7 @@
 @mixin flex($fd, $jc, $ai) {
     display: flex;
     flex-direction: $fd;
-    justify-content: $fc;
+    justify-content: $jc;
     align-items: $ai;
 }
 
